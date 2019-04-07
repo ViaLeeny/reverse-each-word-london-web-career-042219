@@ -8,8 +8,8 @@ return  next_array.join(" ")
 end
 
 def reverse_each_word (sentence)
- first = sentence.split(" ")
- next_array =  []
+ first_array = sentence.split(" ")
+ second_array =  []
  new_array.each do |string|
   next_array  << string.reverse
  end
